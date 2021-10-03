@@ -15,8 +15,7 @@
     </nav>
 
 
-    <label for="initial-price">Initial Price: <input type="number" id="initial-price" placeholder="Initial Price"
-            min="0" oninput="validity.valid||(value='');" /></label>
+    <label for="initial-price">Initial Price: <input type="number" id="initial-price" placeholder="Initial Price" min="0" oninput="validity.valid||(value='');" /></label>
 
     <label for="quantity">Quantity of stock:<input type="number" id="quantity" placeholder="Quantity" min="0"
             oninput="validity.valid||(value='');" /></label>
@@ -25,7 +24,10 @@
     <label for="current-price">Current Price:<input type="number" id="current-price" placeholder="current-price" min="0"
             oninput="validity.valid||(value='');" /></label>
 
+
     <button id="btn">Calculate</button>
+
+    <p id="output"></p>
 
     <footer class="footer">
         <h3>Lets connect</h4>
