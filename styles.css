@@ -37,7 +37,6 @@ button {
 }
 
 .footer {
-    margin-top: 4rem;
     background-color: #7C3AED;
     padding: 1rem;
     border-top-right-radius: 1rem;
@@ -63,4 +62,9 @@ footer ul {
 
 h3{
     color: white;
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
 }
