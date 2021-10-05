@@ -13,7 +13,7 @@ function calculator(initial, quantity, current) {
         color("green");
     } else if(initial>current) {
         var loss = (initial - current)*quantity;
-        var losspercent = (loss / initial)* 100;
+        var losspercent = (loss / (initial * quantity))* 100;
        toShowOutput(`Your loss is ${loss} and loss percentage is ${losspercent.toFixed(2)}😟`);
        color("red");
     } else if (initial === current) {
