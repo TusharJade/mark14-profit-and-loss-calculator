@@ -1,5 +1,5 @@
 var initialPrice = document.querySelector("#initial-price");
-var StockQuantity = document.querySelector("#quantity");
+var stockQuantity = document.querySelector("#quantity");
 var currentPrice = document.querySelector("#current-price");
 var btn = document.querySelector("#btn");
 var output = document.querySelector("#output");
@@ -28,7 +28,7 @@ function calculator(initial, quantity, current) {
 
 function finalOut() {
     var ina = Number(initialPrice.value);
-    var qna = Number(StockQuantity.value);
+    var qna = Number(stockQuantity.value);
     var cna = Number(currentPrice.value);
 
     calculator(ina, qna, cna);
